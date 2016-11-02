@@ -1,0 +1,123 @@
+html { 
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+  letter-spacing: 2px;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.custom-side-nav {
+  letter-spacing: 3px;
+  margin: 15px 0;
+}
+
+a.custom-side-nav {
+  font-size: x-large;
+}
+
+.banner {
+  /*padding: 183px;*/
+  padding: 14.25%;
+}
+
+.custom-nav-wrapper {
+  /*margin: 0 0px 0 -10px;*/
+  padding: 0 10px;
+  width: 100%;
+}
+
+.name-wrapper {
+  border: solid white 30px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: black;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .name-wrapper {
+    border: solid white 20px;
+  }
+  .parallax-container .section {
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 425px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .secName {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .secName {
+    font-size: 2.5rem;
+  }
+  .name-wrapper {
+    border: none;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.one1 {
+  background-color: #08415C;
+}
+
+.three3 {
+  background-color: #E8EEF2;
+}
+
+.simo1 {
+  color: #F1BF98;
+}
+
+.chatty2 {
+  color: black;
+}
+
+.deadstox3 {
+  color: black;
+}
+
+.secName {
+  color: White;
+  text-shadow: 2px 2px #2C2C34;
+}
+
+.techImgs {
+  height: 155px;
+  width: 70%;
+  margin: 10px 0;
+}
