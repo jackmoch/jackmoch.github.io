@@ -8,5 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "materialize-css": "^0.97.8"
+  }
 }
